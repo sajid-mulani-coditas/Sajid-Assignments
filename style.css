@@ -1,0 +1,192 @@
+body{
+  margin: 0;
+  padding: 0;
+    background-color: thistle;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#navbar {
+    background: rgb(14, 1, 124);
+    color: rgb(250, 250, 250);
+    overflow: auto;
+  }
+  
+  #navbar a {
+    color: rgb(255, 255, 255);
+    
+  }
+  
+  #navbar .logo {
+    float: left;
+    padding: 20px 20px;
+    
+}
+  
+  #navbar ul {
+    list-style: none;
+    float: right;
+  }
+  
+  #navbar ul li {
+    float: left;
+    font-size: 20px;
+  }
+  
+  #navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #navbar ul li a:hover {
+    background: rgb(20, 0, 196);
+    color: #c3bef8;
+  }
+  .main{
+      display: flex;
+  }
+  .hospital-img{
+      height:200px;
+      width: 300px ;
+      border-radius: 50%;
+      padding-top: 20px;
+      margin: 5px;
+      border:thin solid rgb(2, 2, 73);
+  }
+
+  .info{
+      text-align: center;
+      padding-top:60px ;
+      
+  }
+.form-head{
+    border-top: thin solid black;
+    padding-top:10px;
+    text-align: center;
+}
+.form{
+    padding: 20px;
+}
+.label{
+    padding: 5px;
+    
+}
+.about-head{
+   
+    padding-top:10px;
+    text-align: center;
+}
+
+.about{
+display: flex;
+justify-content: space-around ;
+}
+.block-1{
+    display: inline-block;
+    background-color: rgb(3, 3, 109);
+    padding: 60px;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    border: thin solid black   ;
+    }
+.block-2{
+display: inline-block;
+background-color: rgb(170, 170, 243);
+padding: 60px;
+color: rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 20px;
+    border: thin solid black   ;
+}
+
+.block-3{
+    display: inline-block;
+    background-color: rgb(3, 3, 109);
+    padding: 60px;   
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    border: thin solid black   ;
+}
+.label{
+    font-size:18px;
+}
+.error-img{
+  text-align: center;
+  padding: 80px 400px;
+  height: 400px;
+  width: 600px;
+}
+
+.self-info{
+  text-align: center;
+}
+
+#main-footer {
+  text-align: center;
+  background: rgb(6, 0, 61);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  margin-top: 15px;
+  background: rgb(28, 1, 71);
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.btn:hover {
+  background: #5287c4;
+  color: rgb(162, 244, 255);
+}
+.hospital-text{
+  color: #033064;
+}
+
+@media screen and (max-width: 766px) and (min-width:576px){
+ .container{
+   display: flex;
+   flex-direction: column;
+ }
+
+ .logo{
+   text-align: center;
+ }
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.block-1 {
+  margin: 10px;
+  padding: 10px;
+}
+ .block-2 {
+  margin: 10px;
+  padding: 10px;
+}
+  .block-3 {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .hospital-img{
+   display: none;
+    
+}
+}
+
